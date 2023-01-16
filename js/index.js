@@ -45,26 +45,19 @@ console.log (reverseName)
 
 
 
-// if ([hacker1]===[hacker2]){
-//     console.log(`What?! You both have the same name?`)
-// }
-// else if ([hacker1]<[hacker2]){
-//     console.log(`The driver's name goes first.`)
-// }
-// else{
-//     console.log(`Yo, the navigator goes first definitely.`)
-// }
-
 for(let i = 0; i < hacker1.length; i++){
     for(let j = 0 ; j < hacker2.length; j++){
-      if(hacker1[i] > hacker2[j]){
-        console.log(`Yo, the navigator goes first definitely.`)
+      if(hacker1[i] = hacker2[j]){
+        console.log(`What?! You both have the same name?`)
       }
       else if (hacker1[i] < hacker2[j]){
         console.log(`The driver's name goes first.`)
       }
       else{
-        console.log(`What?! You both have the same name?`)
+        console.log(`Yo, the navigator goes first definitely.`)
       }
     }
   }
+
+
+
